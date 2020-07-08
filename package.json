@@ -1,0 +1,37 @@
+{
+    "name": "node-tdd",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "directories": {
+        "doc": "docs"
+    },
+    "scripts": {
+        "dev": "nodemon --exec babel-node public/index",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/bedus-creation/node-tdd.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/bedus-creation/node-tdd/issues"
+    },
+    "homepage": "https://github.com/bedus-creation/node-tdd#readme",
+    "dependencies": {
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "mongoose": "^5.9.22"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.10.4",
+        "@babel/core": "^7.10.4",
+        "@babel/node": "^7.10.4",
+        "@babel/preset-env": "^7.10.4",
+        "babel-plugin-module-resolver": "^4.0.0",
+        "nodemon": "^2.0.4"
+    }
+}

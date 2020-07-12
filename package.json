@@ -8,7 +8,10 @@
     },
     "scripts": {
         "dev": "nodemon --exec babel-node public/index",
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "jest --runInBand ./test --detectOpenHandles"
+    },
+    "jest": {
+        "testEnvironment": "node"
     },
     "repository": {
         "type": "git",
@@ -22,6 +25,7 @@
     },
     "homepage": "https://github.com/bedus-creation/node-tdd#readme",
     "dependencies": {
+        "body-parser": "^1.19.0",
         "dotenv": "^8.2.0",
         "express": "^4.17.1",
         "mongoose": "^5.9.22"
@@ -30,8 +34,12 @@
         "@babel/cli": "^7.10.4",
         "@babel/core": "^7.10.4",
         "@babel/node": "^7.10.4",
+        "@babel/plugin-proposal-class-properties": "^7.10.4",
         "@babel/preset-env": "^7.10.4",
         "babel-plugin-module-resolver": "^4.0.0",
-        "nodemon": "^2.0.4"
+        "jest": "^26.1.0",
+        "mongodb-memory-server-global": "^6.6.1",
+        "nodemon": "^2.0.4",
+        "supertest": "^4.0.2"
     }
 }

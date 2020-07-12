@@ -1,8 +1,16 @@
 {
     "presets": [
-        "@babel/preset-env"
+        [
+            "@babel/preset-env",
+            {
+                "targets": {
+                    "esmodules": true
+                }
+            }
+        ]
     ],
     "plugins": [
+        "@babel/plugin-proposal-class-properties",
         [
             "module-resolver",
             {
@@ -11,8 +19,12 @@
                 ],
                 "alias": {
                     "@application": "./app/application",
+                    "@bootstrap": "./bootstrap",
+                    "@config": "./config",
+                    "@domain": "./app/domain",
+                    "@public": "./public",
                     "@routes": "./routes",
-                    "@config": "./config"
+                    "@tests": "./tests"
                 }
             }
         ]

@@ -24,7 +24,8 @@
                     "@domain": "./app/domain",
                     "@public": "./public",
                     "@routes": "./routes",
-                    "@tests": "./tests"
+                    "@tests": "./tests",
+                    "@resources": "./resources"
                 }
             }
         ]

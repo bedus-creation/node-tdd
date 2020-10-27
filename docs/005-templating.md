@@ -1,4 +1,4 @@
-# Templating system with PUG
+# Templating system with EDGE JS
 
 ## Install edge-js for express
 ```bash

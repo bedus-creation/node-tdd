@@ -27,7 +27,7 @@
     "dependencies": {
         "body-parser": "^1.19.0",
         "dotenv": "^8.2.0",
-        "edge.js": "^1.1.4",
+        "edge.js": "^5.3.2",
         "express": "^4.17.1",
         "express-edge": "^2.0.2",
         "mongoose": "^5.9.22",
